@@ -13,6 +13,9 @@ boxplot(df1$price)
 plot(df1$price,df1$average_review_rating)
 scatter.smooth(df1$price,df1$average_review_rating)
 
+### Scatterplot of all quantitative variables
+plot(df1[,c(4:8)])
+
 
 ## Visualizing categorical variables
 
